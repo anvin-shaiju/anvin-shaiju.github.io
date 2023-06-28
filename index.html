@@ -28,23 +28,37 @@
   <link href="style.css" rel="stylesheet">
 
   <style>
-* {box-sizing: border-box}
 
-.container {
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.progress {
   width: 100%;
-  background-color: #ddd;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  height: 20px;
+  overflow: hidden;
 }
 
-.skills {
-  text-align: right;
-  
-  color: white;
+.progress-bar {
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 5px;
 }
 
-.html {width: 90%; background-color: #04AA6D;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f44336;}
-.php {width: 60%; background-color: #808080;}
 </style>
 </head>
 
@@ -191,44 +205,62 @@
             <h3 class="text-center">My Skills</h3>
             <br>
         <!-- Skill Bars -->
-              <p>JAVA</p>
-<div class="container">
-  <div class="skills html">90%</div>
-</div>
-
-<p>PYTHON</p>
-<div class="container">
-  <div class="skills css">80%</div>
-</div>
-<p>MONGO DB</p>
-<div class="container">
-  <div class="skills css">80%</div>
-</div>
-              <p>C++</p>
-<div class="container">
-  <div class="skills css">80%</div>
-</div>
-              <p>PYTHON</p>
-<div class="container">
-  <div class="skills css">86%</div>
-</div>
-
-<p>HTML</p>
-<div class="container">
-  <div class="skills js">85%</div>
-</div>
-              <p>SQL</p>
-<div class="container">
-  <div class="skills css">70%</div>
-</div>
-
-<p>JAVASCRIPT</p>
-<div class="container">
-  <div class="skills php">84%</div>
-</div>              
+             <div class="skills-section">
+  <div class="skill">
+    <span class="skill-name">Java</span>
+    <div class="progress">
+      <div class="progress-bar" style="width: 90%"></div>
+    </div>
   </div>
+
+  <div class="skill">
+    <span class="skill-name">PYTHON</span>
+    <div class="progress">
+      <div class="progress-bar" style="width: 80%"></div>
+    </div>
+  </div>
+               <div class="skill">
+    <span class="skill-name">HTML</span>
+    <div class="progress">
+      <div class="progress-bar" style="width: 85%"></div>
+    </div>
+  </div>
+<div class="skill">
+    <span class="skill-name">JAVASCRIPT</span>
+    <div class="progress">
+      <div class="progress-bar" style="width: 80%"></div>
+    </div>
+  </div>
+ <div class="skill">
+    <span class="skill-name">ANGULAR JS</span>
+    <div class="progress">
+      <div class="progress-bar" style="width: 80%"></div>
+    </div>
+  </div>
+
+<div class="skill">
+    <span class="skill-name">MONGO DB</span>
+    <div class="progress">
+      <div class="progress-bar" style="width: 86%"></div>
+    </div>
+  </div>
+<div class="skill">
+    <span class="skill-name">SQL</span>
+    <div class="progress">
+      <div class="progress-bar" style="width: 82%"></div>
+    </div>
+  </div>
+
+<div class="skill">
+    <span class="skill-name">C++</span>
+    <div class="progress">
+      <div class="progress-bar" style="width: 75%"></div>
+    </div>
+  </div>
+               
 </div>  
-</div>    
+</div> 
+     </div>
 
         </div>
 
