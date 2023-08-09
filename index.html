@@ -1,858 +1,921 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Anvin Shaiju</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-   <!-- Vend5or CSS Files -->
-   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="style.css" rel="stylesheet">
-
-  <style>
-
-
-.skills-section {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-}
-
-.skill {
-  margin-bottom: 10px;
-}
-
-.skill-name {
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.progress {
-  width: 100%;
-  background-color: #f1f1f1;
-  border-radius: 5px;
-  height: 20px;
-  overflow: hidden;
-}
-
-.progress-bar {
-  height: 100%;
-  background-color: #007bff;
-  border-radius: 5px;
-}
-
-</style>
-</head>
-
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container">
-      <h1><a href="index.html">Anvin</a></h1>
-      
-      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/insta.png" alt="" class="img-fluid"></a> -->
-      <h2>I'm a passionate <span>AI Student</span> and developer</h2>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link active" href="#header">Home</a></li>
-          <li><a class="nav-link" href="#about">About</a></li>
-          <li><a class="nav-link" href="#resume">Resume</a></li>
-          <li><a class="nav-link" href="#services">Services</a></li>
-          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <div class="social-links">
-        
-   
-        <a href="https://instagram.com/anvin_shaiju?igshid=NTA5ZTk1NTc=" class="instagram"><i class="bi bi-instagram"></i></a>
-         <a href=" https://www.linkedin.com/in/anvin-shaiju-3737091a2/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        <br>
-        <br>
-        <br>
-        
-        
-      </div>
-     <div class="social-links">
-       <p><br>Whatsapp me<a href="https://wa.me/+919995896876" class="linkedin"><img src="assets/img/insta.png" alt="" class="img-fluid"></a</p>
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= About Section ======= -->
-  <section id="about" class="about">
-
-    <!-- ======= About Me ======= -->
-    <div class="about-me container">
-
-      <div class="section-title">
-        <h2>About</h2>
-        <p>Learn more about me</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anvin Shaiju</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
           
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3> AI &amp; Cybersecurity Enthusiast</h3>
-          <p class="fst-italic">
-            Young Computer Enthusiast Specialised in the field of Artificial Intelligence & Machine Learning Technique concentrated on integration of AI 
-            to the field of Cybersecurity
-          </p>
-          <div class="row">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>00.00.0000</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.anvin.live</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>9995896876</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Status</strong> <span></span></li>
-              </ul>
-            </div>
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>Youth</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>anvin@live.in</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
-              </ul>
-            </div>
-          </div>
-          <p>
+          :root {
+            --background: #060608;
+            --color: #FAFAFA;
+          }
+          
+          body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Leave space for the additional animation */
+        .main-container {
+            margin-top: 20px;
+        }
+          
+          .container {
+            color: var(--color);
+            font-size: 1.5rem;
+            display: flex;
+            flex-direction: column;
+          }
+          
+          .right {
+            text-align: right;
+            width: 100%;
+          }
+          
+          .stack {
+            display: grid;
+            grid-template-columns: 1fr;
+            font-family: 'Helvetica Neue', sans-serif;
+          }
+          
+          .stack span {
+            font-weight: bold;
+            grid-row-start: 1;
+            font-family: 'Helvetica Neue', sans-serif;
+            grid-column-start: 1;
+            font-size: 4rem;
+            --stack-height: calc(100% / var(--stacks) - 1px);
+            --inverse-index: calc(calc(var(--stacks) - 1) - var(--index));
+            --clip-top: calc(var(--stack-height) * var(--index));
+            --clip-bottom: calc(var(--stack-height) * var(--inverse-index));
+            clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0);
+            animation: stack 1.5s cubic-bezier(0.075, 0.82, 0.165, 1) infinite, glitch 2s ease infinite 2s alternate-reverse;
+          }
+          
+          .stack span:nth-child(odd) { --glitch-translate: 8px; }
+          .stack span:nth-child(even) { --glitch-translate: -8px; }
+          
+          @keyframes stack {
+            0%, 100% {
+              opacity: 0;
+              transform: translateX(-50%);
+              text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
+            };
+            60% {
+              opacity: 0.5;
+              transform: translateX(50%);
+            }
+            80% {
+              transform: none;
+              opacity: 1;
+              text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
+            }
+          }
+          
+          @keyframes stack {
+            0% {
+              text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+                0.025em 0.04em 0 #fffc00;
+                opacity: 1;
+            }
+            15% {
+              text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+                0.025em 0.04em 0 #fffc00;
+                opacity: 0.7;
+            }
+            16% {
+              text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+                -0.05em -0.05em 0 #fffc00;
+                
+            }
+            49% {
+              text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+                -0.05em -0.05em 0 #fffc00;
+                opacity: 0.5;
+            }
+            50% {
+              text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+                0 -0.04em 0 #fffc00;
+            }
+            99% {
+              text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+                0 -0.04em 0 #fffc00;
+                opacity: 0.3;
+            }
+            100% {
+              text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
+                -0.04em -0.025em 0 #fffc00;
+                opacity: 1;
+
+            }
+          }
+          @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
+
+          .main-container {
+              width: auto;
+              height: auto;
+              background: #000000;
+          
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+          
+          .content-box {
+              width: 250px;
+              height: 250px;
+              position: relative;
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+          }
+          
+          .header {
+              width: 300px;
+              opacity: 0.7;
+              position: relative;
+              display: flex;
+              align-items: center;
+              height: 80px;
+          }
+          
+          .header-block {
+              width: 0%;
+              height: inherit;
+              background: #ffb510;
+              position: absolute;
+              animation: mainBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
+              display: flex;
+          }
+          
+          h1.name {
+              opacity: 0.5;
+              color: #fff;
+              font-size: 32px;
+              -webkit-animation: mainFadeIn 1s forwards;
+              -o-animation: mainFadeIn 2s forwards;
+              animation: mainFadeIn 2s forwards;
+              animation-delay: 1.6s;
+              opacity: 1;
+              display: flex;
+              align-items: baseline;
+              position: relative;
+
+          }
+          
+          .name-span {
+              width: 0px;
+              opacity: 0.8;
+              height: 0px;
+              -webkit-border-radius: 50%;
+              -moz-border-radius: 50%;
+              border-radius: 50%;
+              background: #ffb510;
+              -webkit-animation: load 0.6s cubic-bezier(.74, .06, .4, .92) forwards;
+              animation: popIn 0.8s cubic-bezier(.74, .06, .4, .92) forwards;
+              animation-delay: 2s;
+              margin-left: 5px;
+              margin-top: -10px;
+              position: absolute;
+              bottom: 13px;
+              right: -12px;
+          }
+          
+          .user-role {
+              width: 400px;
+              position: relative;
+              display: flex;
+              align-items: center;
+              height: 30px;
+              margin-top: -10px;
+          }
+          
+          .user-role-block {
+              width: 0%;
+              height: inherit;
+              background: #e91e63;
+              position: absolute;
+              animation: secBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
+              animation-delay: 2s;
+              display: flex;
+          }
+          
+          p.role-text {
+              animation: secFadeIn 2s forwards;
+              animation-delay: 3.2s;
+              opacity: 0;
+              font-weight: 400;
+              font-family: 'Lato';
+              color: #ffffff;
+              font-size: 12px;
+              text-transform: uppercase;
+              letter-spacing: 5px;
+          }
+          
+          .footer-text {
+              width: 450px;
+              height: 80px;
+              background: #ffb510;
+              position: absolute;
+              right: 0;
+              bottom: -80px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              animation: top 0.8s forwards;
+              animation-delay: 4s;
+          }
+          
+          .icon {
+              margin-right: 25px;
+              font-size: 22px;
+              color: #232323;
+              animation: icon 2s forwards;
+              animation-delay: 4s;
+              opacity: 0;
+          }
+          
+          .watch-text {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              font-size: 12px;
+              color: #232323;
+              font-family: 'Poppins';
+          }
+          
+         
+          @keyframes mainFadeIn {
+              0% {
+                  opacity: 0;
+              }
+              100% {
+                  opacity: 1;
+              }
+          }
+          
+          @keyframes popIn {
+              0% {
+                  width: 0px;
+                  height: 0px;
+                  background: #e9d856;
+                  border: 0px solid #ddd;
+                  opacity: 0;
+              }
+              50% {
+                  width: 10px;
+                  height: 10px;
+                  background: #e9d856;
+                  opacity: 1;
+                  bottom: 45px;
+              }
+              65% {
+                  width: 7px;
+                  height: 7px;
+                  bottom: 0px;
+                  width: 15px
+              }
+              80% {
+                  width: 10px;
+                  height: 10px;
+                  bottom: 20px
+              }
+              100% {
+                  width: 7px;
+                  height: 7px;
+                  background: #e9d856;
+                  border: 0px solid #222;
+                  bottom: 13px;
+              }
+          }
+          
+          @keyframes secFadeIn {
+              0% {
+                  opacity: 0;
+              }
+              100% {
+                  opacity: 0.5;
+              }
+          }
+          
+          @keyframes top {
+              0% {
+                  opacity: 0;
+                  bottom: -80px;
+              }
+              100% {
+                  opacity: 1;
+                  bottom: 0px;
+              }
+          }
+          
+          @keyframes icon {
+              0% {
+                opacity: 0;
+                 transform: scale(0.0);
+              }
+               50% {
+                  opacity: 1;
+                 transform: scale(1.3) rotate(-02deg);
+               }
+              100% {
+                opacity: 1;
+                 bottom: 0px;
+              }
+            }
+            @keyframes mainBlock {
+                0% {
+                    width: 0%;
+                    left: 0;
+                }
+                50% {
+                    width: 100%;
+                    left: 0;
+                }
+                100% {
+                    width: 0;
+                    left: 100%;
+                }
+            }
+    
+            @keyframes secBlock {
+                0% {
+                    width: 0%;
+                    left: 0;
+                }
+                50% {
+                    width: 100%;
+                    left: 0;
+                }
+                100% {
+                    width: 0;
+                    left: 100%;
+                }
+            }
+            h1 
+            { color: #ffffff; 
+                font-family: 'Raleway',sans-serif; 
+                font-size: 62px; font-weight: 800; 
+                opacity: 0.8;
+                text-align: center;
+                text-transform: uppercase;
+                 }
+                 .ripple-container {
+                    position: fixed;
+                    bottom: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    margin-bottom: 30px; /* Adjust this value to control the distance from the bottom */
+                }
+
+                 .ripple {
+                    display: inline-block;
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 50%;
+                    margin: 0 5px;
+                    position: relative;
+                  }
+                  
+                  .ripple::before {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background-color: inherit;
+                    border-radius: 50%;
+                    z-index: -1;
+                    animation: ripple 1.5s ease-out infinite;
+                  }
+                  
+                  .ripple:nth-child(1) {
+                    background-color: #ff414d;
+                  }
+                  
+                  .ripple:nth-child(1)::before {
+                    animation-delay: 0.2s;
+                  }
+                  
+                  .ripple:nth-child(2) {
+                    background-color: #ff7a00;
+                    transform: scale(0.9);
+                  }
+                  
+                  .ripple:nth-child(2)::before {
+                    animation-delay: 0.4s;
+                  }
+                  
+                  .ripple:nth-child(3) {
+                    background-color: #28df99;
+                    transform: scale(0.8);
+                  }
+                  
+                  .ripple:nth-child(3)::before {
+                    animation-delay: 0.6s;
+                  }
+                  
+                  .ripple:nth-child(4) {
+                    background-color: #81b214;
+                    transform: scale(0.7);
+                  }
+                  
+                  .ripple:nth-child(4)::before {
+                    animation-delay: 0.8s;
+                  }
+                  
+                  .ripple:last-child {
+                    background-color: #f09ae9;
+                    transform: scale(0.6);
+                  }
+                  
+                  .ripple:last-child::before {
+                    animation-delay: 1s;
+                  }
+                  
+                  @keyframes ripple {
+                    from {
+                      opacity: 1;
+                      transform: scale(0);
+                    }
+                    to {
+                      opacity: 0;
+                      transform: scale(3);
+                    }
+                  }
+       
+                  .typewriter-container {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: calc(100% - 185px); /* Adjust this value to fine-tune the vertical position */
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+                
+                .typewriter {
+                    color: #fff;
+                    font-size: 25px;
+                    font-family: monospace;
+                    overflow: hidden; /* Ensures the content is not revealed until the animation */
+                    border-right: .15em solid orange; /* The typewriter cursor */
+                    white-space: nowrap; /* Keeps the content on a single line */
+                    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                    letter-spacing: .15em; /* Adjust as needed */
+                    animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+                }
+                
+                  /* The typing effect */
+                  @keyframes typing {
+                    from { width: 0 }
+                    to { width: 100% }
+                  }
             
-            Inquisitive, energetic computer science specialist skilled in leadership, with a strong foundation in AI, Object-oriented programming,Machine logic, and cross-platform coding.Experienced in high-performance, mixed-signal system architecture, board-level design, custom backplanes, FPGA implementations, remote sensory, analog signal conditioning, and test engineering. Detail-oriented and organized professional with creative mindset and strong project management abilities. Seeking to leverage solid skills in collaboration, communication, and development as a Developer and researcher for Mankind.
-          </p>
-        </div>
-      </div>
+                  /* The typewriter cursor effect */
+                  @keyframes blink-caret {
+                    from, to { border-color: transparent }
+                    50% { border-color: orange }
+                  }
+                  @media (max-width: 768px) {
+                    .typewriter-container {
+                        align-items: flex-start;
+                        padding-top: 30px; /* Adjust this value as needed for better vertical positioning on smaller screens */
+                    }
+                
+                    .typewriter {
+                        font-size: 20px; /* Adjust the font size for smaller screens */
+                    }
+                }
 
-    </div><!-- End About Me -->
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600");
 
-    <!-- ======= Counts ======= -->
-    <div class="counts container">
+:root {
+  --bar-scale-y: 0;
+  --sparkle-color: rgb(253 244 215 / 40%);
+}
 
-      <div class="row">
+@keyframes pop-word {
+  to {
+    transform: rotateX(0);
+  }
+}
 
-        <div class="col-lg-3 col-md-6">
-          <div class="count-box">
-            <i class="bi bi-emoji-smile"></i>
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Happy Clients</p>
-          </div>
-        </div>
+@keyframes show {
+  to {
+    opacity: 1;
+  }
+}
 
-        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-          <div class="count-box">
-            <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Projects</p>
-          </div>
-        </div>
+@keyframes bar-scale {
+  to {
+    transform: scaleY(1);
+  }
+}
 
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-headset"></i>
-            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hours Of Support</p>
-          </div>
-        </div>
+@keyframes sparkle {
+  0% {
+    transform: scale(0);
+  }
 
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-award"></i>
-            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Awards</p>
-          </div>
-        </div>
+  60% {
+    transform: scale(1) translate(4px, 1px) rotate(8deg);
+  }
 
-      </div>
+  100% {
+    transform: scale(0) translate(4px, 1px) rotate(8deg);
+  }
+}
 
-    </div><!-- End Counts -->
+@keyframes shimmer {
+  to {
+    text-shadow: 0 0 8px red;
+  }
+}
 
-    <!-- ======= Skills  ======= -->
-    <div class="skills container">
+body {
+  display: grid;
+  height: 80vh;
 
-      <div class="section-title">
-        <h2>Skills</h2>
-      </div>
+  background-color: black;
+  place-items: center;
+}
 
-      
-            <div class="col-md-6 col-md-offset-3">
-            <h3 class="text-center">My Skills</h3>
-            <br>
-        <!-- Skill Bars -->
-             <div class="skills-section">
-  <div class="skill">
-    <span class="skill-name">Java</span>
-    <div class="progress">
-      <div class="progress-bar" style="width: 90%"></div>
-    </div>
-  </div>
+h1 {
+  color: white;
+  font-family: "Playfair Display", Vidaloka, serif;
+  font-size: 6rem;
 
-  <div class="skill">
-    <span class="skill-name">PYTHON</span>
-    <div class="progress">
-      <div class="progress-bar" style="width: 80%"></div>
-    </div>
-  </div>
-               <div class="skill">
-    <span class="skill-name">HTML</span>
-    <div class="progress">
-      <div class="progress-bar" style="width: 85%"></div>
-    </div>
-  </div>
-<div class="skill">
-    <span class="skill-name">JAVASCRIPT</span>
-    <div class="progress">
-      <div class="progress-bar" style="width: 80%"></div>
-    </div>
-  </div>
- <div class="skill">
-    <span class="skill-name">ANGULAR JS</span>
-    <div class="progress">
-      <div class="progress-bar" style="width: 80%"></div>
-    </div>
-  </div>
+  line-height: 0.85;
+  perspective: 500px;
+}
 
-<div class="skill">
-    <span class="skill-name">MONGO DB</span>
-    <div class="progress">
-      <div class="progress-bar" style="width: 86%"></div>
-    </div>
-  </div>
-<div class="skill">
-    <span class="skill-name">SQL</span>
-    <div class="progress">
-      <div class="progress-bar" style="width: 82%"></div>
-    </div>
-  </div>
+.word {
+  display: block;
 
-<div class="skill">
-    <span class="skill-name">C++</span>
-    <div class="progress">
-      <div class="progress-bar" style="width: 75%"></div>
-    </div>
-  </div>
-               
-</div>  
-</div> 
+  animation: show 0.01s forwards, pop-word 1.5s forwards;
+  animation-timing-function: cubic-bezier(0.14, 1.23, 0.33, 1.16);
+  opacity: 0;
+
+  transform: rotateX(120deg);
+  transform-origin: 50% 100%;
+}
+
+.word:nth-of-type(2) {
+  padding: 0 2rem;
+
+  animation-delay: 1.5s;
+
+  color: gold;
+}
+
+.superscript {
+  position: relative;
+  font-size: 35px;
+  animation-delay: 3.6s;
+
+  animation-duration: 0.25s;
+  animation-name: shimmer;
+
+  vertical-align: text-top;
+}
+
+/* bars */
+.superscript::before {
+  --bar-width: 00%;
+
+  position: absolute;
+
+  top: 37%;
+  left: 47%;
+  width: 14%;
+  height: 48%;
+
+  animation: bar-scale 0.25s linear 3s 1 forwards;
+
+  background: linear-gradient(
+    to right,
+    white var(--bar-width),
+    transparent var(--bar-width) calc(100% - var(--bar-width)),
+    white calc(100% - var(--bar-width))
+  );
+
+  content: "";
+
+  transform: scaleY(var(--bar-scale-y));
+}
+
+/* sparkle */
+.superscript::after {
+  --size: 10rem;
+
+  position: absolute;
+
+  top: -5%;
+  left: -85%;
+
+  width: var(--size);
+  height: var(--size);
+
+  animation: sparkle 0.4s linear 3.5s 1 forwards;
+
+  background: radial-gradient(
+      circle at center,
+      rgb(252 249 241 / 94%) 0% 7%,
+      transparent 7% 100%
+    ),
+    conic-gradient(
+      transparent 0deg 18deg,
+      var(--sparkle-color) 18deg,
+      transparent 20deg 40deg,
+      var(--sparkle-color) 40deg,
+      transparent 43deg 87deg,
+      var(--sparkle-color) 87deg,
+      transparent 95deg 175deg,
+      var(--sparkle-color) 175deg,
+      transparent 178deg 220deg,
+      var(--sparkle-color) 220deg,
+      transparent 222deg 270deg,
+      var(--sparkle-color) 270deg,
+      transparent 275deg 300deg,
+      var(--sparkle-color) 300deg,
+      transparent 303deg 360deg
+    );
+
+  border-radius: 50%;
+  clip-path: polygon(
+    50% 0,
+    59.13% 26.64%,
+    85.13% -2.35%,
+    100% 50%,
+    50% 100%,
+    0 50%,
+    31.39% 34.86%
+  );
+
+  content: "";
+
+  filter: blur(1px);
+
+  transform: scale(0);
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  /* sparkle */
+  .superscript::after {
+    --size: 15rem;
+  }
+}
+.anotherword{
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 85px;
+     font-weight: bold; 
+     letter-spacing: -1px; 
+     line-height: 1;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+
+ul {
+  position: relative;
+}
+
+ul li {
+  list-style: none;
+  text-align: center;
+}
+
+ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 5px 10px;
+  display: inline-flex;
+  
+  transition: 0.5s;
+  font-family: 'Raleway',sans-serif;
+   font-weight: 800;
+    line-height: 23px;
     
+     text-align: center;
+      text-transform: uppercase;
 
-    </div><!-- End Skills -->
 
-    <!-- ======= Interests ======= -->
-    <div class="interests container">
 
-      <div class="section-title">
-        <h2>Interests</h2>
-      </div>
+  
+}
 
-      <div class="row">
-        <div class="col-lg-3 col-md-4">
-          <div class="icon-box">
-            <i class="ri-store-line" style="color: #ffbb2c;"></i>
-            <h3>Artificial Intelligence</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-            <h3>Data Analysis</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-            <h3>Automation</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-            <h3>Deep learning</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-database-2-line" style="color: #47aeff;"></i>
-            <h3>Full Stack Development</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-            <h3>Android Application Development</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-            <h3>Data Science</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-            <h3>Management</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-anchor-line" style="color: #b2904f;"></i>
-            <h3>Block Chain and cryptography</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-disc-line" style="color: #b20969;"></i>
-            <h3>Cloud Computing</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-base-station-line" style="color: #ff5828;"></i>
-            <h3>Computer Networking</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-            <h3>Biometric Security</h3>
-          </div>
-        </div>
-      </div>
+ul:hover li a {
+  color: rgba(255, 255, 255, 0.133);
+}
 
-    </div><!-- End Interests -->
+ul li:hover a {
+  color: #000;
+  background: rgba(255, 255, 255, 1);
+}
 
+ul li a:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5em;
+  color: rgba(0, 0, 0, .1);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 500px;
+  transition: letter-spacing 0.5s, left 0.5s;
+}
+
+ul li a:hover:before {
+  content: attr(data-text);
+  opacity: 1;
+  left: 70%;
+  letter-spacing: 10px;
+  width: 800px;
+  height: 800px;
+}
+
+ul li:nth-child(6n+1) a:before {
+  background: #81ecec;
+}
+
+ul li:nth-child(6n+2) a:before {
+  background: #ff7675;
+}
+
+ul li:nth-child(6n+3) a:before {
+  background: #55efc4;
+}
+
+ul li:nth-child(6n+4) a:before {
+  background: #a29bfe;
+}
+
+ul li:nth-child(6n+5) a:before {
+  background: #fd79a8;
+}
+
+ul li:nth-child(6n+6) a:before {
+  background: #ffeaa7;
+}
+
+/* Additional styles for positioning the menu */
+ul {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+}
+
+ul li {
+  margin-left: 5px;
+}
+
+.overlay-box {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background: #ffffff;
+    padding: 20px;
+    /* Other styling for the content box */
+}
+
+
+
+  
+
+    </style>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const overlayBox = document.querySelector('.overlay-box');
+            const contentContainer = overlayBox.querySelector('.content');
+            const navLinks = document.querySelectorAll('.nav-menu a');
+        
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    const contentId = link.getAttribute('data-content');
+                    const content = document.getElementById(contentId);
+        
+                    if (content) {
+                        contentContainer.innerHTML = content.innerHTML;
+                        overlayBox.style.display = 'flex';
+                    }
+                });
+            });
+        
+            overlayBox.addEventListener('click', function(event) {
+                if (event.target === overlayBox) {
+                    overlayBox.style.display = 'none';
+                    contentContainer.innerHTML = '';
+                }
+            });
+        });
+        
+    </script>
+</head>
+<body>
+    <div id="nav-menu">
+    <ul class="nav-menu"> 
+        <li><a href="test3.html" >Home</a></li> 
+        <li><a href="#" data-content="About">About</a></li> 
+        <li><a href="#" data-text="Services">Services</a></li>    
+        <li><a href="#" data-text="Work">Work</a></li>    
+        <li><a href="#" data-text="Team">Freelance</a></li>  
+        <li><a href="#" data-text="Contact">Contact</a></li>  
+        </ul>
+        </div>
+        <div class="overlay-box">
+            <div class="content"></div>
+        </div>
+        <div id="home" style="display: none;">
     
-  </section><!-- End About Section -->
-  <!-- ======= Resume Section ======= -->
-  <section id="resume" class="resume">
+        </div>
+        
+        <div id="About" style="display: none;">
+       
+        </div>
+        
+        <!-- Add other content sections -->
+        
+    <div class="content-wrapper">
     <div class="container">
-      <div class="section-title">
-        <h2>Resume</h2>
-        <p>Check My Resume</p>
-      </div>
-      <div class="row">
-          <h3 class="resume-title">Sumary</h3>
-          <div class="resume-item pb-0">
-            <h4>Anvin Shaiju</h4>
-            <p><em>Machine Enthusiast</em></p>
-              <li>Kerala</li>
-              <li>anvinshaiju@gmail.com</li>
-          </div>
-          <div class="col-md-4">
-          <h3 class="resume-title">Education</h3>
-          <div class="resume-item">
-            <h4>Bachelor Of Technology in Artificial Intelligence & Data Science</h4>
-            <h5>2021-</h5>
-            <p><em>Karunya Institute of Technology and Science </em></p>
-            <p>Involved in areas such as AI,ML,Data Science,Data Analysis,Data Visualisation,Deep learning,AR & VR , Networking , Automation ,robotics </p>
-          </div>
-            
-            <div class="resume-item">
-            <h4>Certificate in Business Skills (CBS)</h4>
-            <h5>2022</h5>
-            <p><em>Indira gandhi national open university</em></p>
-          </div>
-            
-          <div class="resume-item">
-            <h4>Higher Secondary Education in Computer Science</h4>
-            <h5>2019-2021</h5>
-            <p><em>Depaul school Of Higher Secondary Education</em></p>
-            <p>Foundational Sciences Including Physics chemistry & Computer Science </p>
-          </div>
-          <div class="resume-item">
-            <h4>Diploma In Accelerated Artificial Intelligence</h4>
-            <h5>2021</h5>
-            <p><em>Government Of India -NPTEL</em></p>
-            
-          </div>
-          <div class="resume-item">
-            <h4>Diploma In Artificial Intelligence</h4>
-            <h5>2022</h5>
-            <p><em>University Of pennsylvenia - Coursera</em></p>
-          </div>
-            
+        <h2 class="anotherword">
+            <span class="word">Hey!<span class="superscript">Its Me</span> </span>
+            <span class="word">Anvin</span>
+          </h2>
+     
+    </div>
    
-            
-           </div>
-        <div class="col-md-6">
-        <h3 class="resume-title">Professional Certifications</h3>
-          <div class="resume-item">
-            <h4>Cloud Computing</h4>
-            <h5>Microsft</h5>
-          </div>
-          <div class="resume-item">
-            <h4>Networking</h4>
-            <h5>CISCO</h5>
-          </div>
 
-          <div class="resume-item">
-            <h4>Tensorflow Developer</h4>
-            <h5>Deeplearning.AI</h5>
-          </div>
-
-          <div class="resume-item">
-            <h4>Programming</h4>
-            <h5>CISCO</h5>
-          </div>
-          <div class="resume-item">
-            <h4>Cloud practioner</h4>
-            <h5>AWS</h5>
-          </div>
-          <div class="resume-item">
-            <h4>Digital marketing</h4>
-            <h5>Google
-          </div>
-          <h3 class="resume-title">Certification and Online Courses</h3>
-          <div class="resume-item">
-            <h4>University OF oxford - Edx Platform</h4>
-            <h5>Management</h5>
-             <h6>Project Management</h6> 
-             <h7> Communication Skills </h7>
-             <h8>Business Management</h8>
-          </div>
-
-          <div class="resume-item">
-            <h4>Allison Courses</h4>
-            <h6>Networking</h5>
-             <h6>OSI Model</h6> 
-             <h6> Lan Networking  </h7>
-             <h6>Ip & Mac Addresses</h8>
-          </div>
-          <div class="resume-item">
-              <h4>Coursera</h4>
-              <h5>AI</h5>
-               <li>AI for everyone</li> 
-               <li> machine learning specialisation </li>
-               <li> AI for Business</li>
-               <h9>Google Data Analytics</h9>
-               <h10>Machine Learning For all</h10>
-               <h11>Extended Reality For Everybody</h11>
-           </div>
-
-        <div class="resume-item">
-          <h4>Netacad CISCO</h4>
-          <h5>Cybersecurity</h5>
-           <h6>Cybersecurity essentials</h6> 
-           <h7> Cloud Security </h7>
-           <h8> Iot Fundamentals- Iot Security</h8>
-        </div>
-        
-      </div>
-        <div class="col-md-8">
-          <h3 class="resume-title">Professional Experience</h3>
-          <div class="resume-item">
-            <h4>Programming Intern</h4>
-            <h5>2021</h5>
-            <p><em>Cisco Networking Academy</em></p>
-              <li>Intern at  Cisco Networking Academy for Programming domain</li>
-          </div>
-          <div class="resume-item">
-            <h4>Full Stack Development</h4>
-            <h5>2022</h5>
-            <p><em>IBM SkillBuild</em></p>
-              <li>FUll Stack development with IBM Skills Build Community</li>
-          </div>
-          <div class="resume-item">
-            <h4>Digital marketing</h4>
-            <h5>2020-2021</h5>
-            <p><em>Pittapillil Agencies</em></p>
-              <li>worked for digital marketing team of Pittapillil Agencies</li>
-          </div>
-          <div class="resume-item">
-            <h4>Sales Executive</h4>
-            <h5>2019-2020</h5>
-            <p><em>Pittapillil Agencies</em></p>
-              <li>worked to gain  Experience in the marketing domain</li>
-          </div>
-      <h3 class="resume-title"> Experience</h3>
-          <div class="resume-item">
-            <h4>Head Of operations</h4>
-            <h5>2022-</h5>
-            <p><em>Cybersecurity Club- Karunya University</em></p>
-              
-          </div>
-          <div class="resume-item">
-            <h4>Head Of Human Resource Management</h4>
-            <h5>2022</h5>
-            <p><em>Cybersecurity Club - Karunya University</em></p>
-          </div>
-      </div>   
-    </div>
-  </section><!-- End Resume Section -->
-
-  <!-- ======= Services Section ======= -->
-  <section id="services" class="services">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Services</h2>
-        <p>My Services</p>
-      </div>
-      
-      
-      <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bxl-dribbble"></i></div>
-            <h4><a href="">Machine learning</a></h4>
-            <p>provide Training Of AI Using Machine Learning Techniques</p> 
-          </div>
-        </div>
-
-        
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Data Analysis</a></h4>
-              <p>Data Analysis with Machine learning and deep learning</p>
+    <div class="main-container">
+        <div class="content-box">
+            <div class="header">
+                <div class="header-block"></div>
+                <h1 class="name"  >AI Developer<span class="name-span"></span></h1>
             </div>
-          </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="">Software development</a></h4>
-            <p>Development Of Software as per requirements and Designs</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-8 d-flex align-items-stretch mt-4 ">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-tachometer"></i></div>
-            <h4><a href="">Full Stack Development</a></h4>
-            <p>Both Back end and front end development For Your Website</p>
-          </div>
-        </div>
-
-        
-          <div class="col-lg-4 col-md-8 d-flex align-items-stretch mt-4 ">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Data Mining</a></h4>
-              <p>Data Mining Techniques For Individual or an organisation</p>
+            <div class="user-role">
+                <div class="user-role-block"></div>
+                <p class="role-text">Cyber Security Enthusiast</p>
             </div>
-          </div>
-
-        <div class="col-lg-4 col-md-8 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-world"></i></div>
-            <h4><a href="">Android Application Development</a></h4>
-            <p>Android Application Development Using Java,Kotlin,Flutter</p>
-          </div>
         </div>
 
-        <div class="col-lg-4 col-md-8 d-flex align-items-stretch mt-4 ">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-slideshow"></i></div>
-            <h4><a href="">Pen testing</a></h4>
-            <p>Penetration Testing services using Different softwares</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-8 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-arch"></i></div>
-            <h4><a href="">Automation Works</a></h4>
-            <p>Bot development and automation related works using AI & ML</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-8 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-arch"></i></div>
-            <h4><a href="">Works</a></h4>
-            <p>Bot development and automation related works using AI</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section><!-- End Services Section -->
-
-  <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Portfolio</h2>
-        <p>My Works & Projects</p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">Hardware Works</li>
-            <li data-filter=".filter-card">Software Works</li>
-            <li data-filter=".filter-web">Core Project</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container">
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Smart Tv Conversion</h4>
-              <p>Conversion of normal Tv to Smart TV using Raspberry PI</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
+        <div class="typewriter-container"> <!-- New container for the typewriter -->
+            <div class="typewriter">
+                <h4>"Innovate Inspire Ignite."</h4>
             </div>
-          </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>AI facial Reconstruction</h4>
-              <p>AI facial Reconstruction For Criminal Procedure</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Smart Human Detection</h4>
-              <p>Detection of humans that has been trapped under Disasters Using Sensors</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
+        <div class="ripple-container">
+            <span class="ripple"></span>
+            <span class="ripple"></span>
+            <span class="ripple"></span>
+            <span class="ripple"></span>
+            <span class="ripple"></span>
           </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Farm Buddy</h4>
-              <p>Agriculture Doctor Software For Farmers</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Android skinning to create our own  Interface</h4>
-              <p>Open source Android has been downloaded and edited to create our own open source android Software>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Smart Breaking System</h4>
-              <p>Smart breaking system For cars using Arduino</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Memoir</h4>
-              <p>Virtual Reality App/Software for dementia Patients To feel Old memories</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Chatbot</h4>
-              <p>Different Chatbot Development</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-11.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>AI digit Recognition</h4>
-              <p>Handwritten digit Recognition Using Artificial Intelligence</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-11.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
- 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-12.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>AI Spam Classifier</h4>
-              <p>Spam classification Using Artificial Intelligence</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-12.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Smart Watch 3</h4>
-              <p>Smart watch developed For Cross platform coding </p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section><!-- End Portfolio Section -->
-
-  <!-- ======= Contact Section ======= -->
-  <section id="contact" class="contact">
-    <div class="container">
-
-      <div class="section-title">
-        <h2>Contact</h2>
-        <p>Contact Me</p>
-      </div>
-
-      <div class="row mt-2">
-
-        <div class="col-md-6 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-map"></i>
-            <h3>My Address</h3>
-            <p>Kerala Cochin</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-share-alt"></i>
-            <h3>Social Profiles</h3>
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-envelope"></i>
-            <h3>Email Me</h3>
-            <p>anvinshaiju@gmail.com</p>
-          </div>
-        </div>
-        <div class="col-md-6 mt-4 d-flex align-items-stretch">
-          <div class="info-box">
-            <i class="bx bx-phone-call"></i>
-            <h3>Call Me</h3>
-            <p>9995896876</p>
-          </div>
-        </div>
-      </div>
-      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
-        <div class="row">
-          <div class="col-md-6 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-          </div>
-          <div class="col-md-6 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-          </div>
-        </div>
-        <div class="form-group mt-3">
-          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-        </div>
-        <div class="form-group mt-3">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-        </div>
-        <div class="my-3">
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
-        </div>
-        <div class="text-center"><button type="submit">Send Message</button></div>
-      </form>
-    </div>
-  </section><!-- End Contact Section -->
-  <div class="credits">
-    Designed by <a>Anvin Shaiju</a>
-  </div>
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+    
 </body>
 </html>
